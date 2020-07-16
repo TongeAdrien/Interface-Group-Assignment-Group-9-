@@ -10,7 +10,7 @@ public class AngryDuck extends WaterFowl implements Teleporter
      
      public void teleport (int x, int y)
      {
-          if (x <=1000 && y<500 && x>0 && y >0)
+          if (x > 0 && x <=locate.getX() && y >0 && y<((locate.getY())/2))
           {
                duckY = y;
                duckX = x;
@@ -23,7 +23,7 @@ public class AngryDuck extends WaterFowl implements Teleporter
      }
      public String getPosition()
      {
-          String position = (duckX+","+duckY);
+          String position = ("x =" + " " + duckX+","+ " " + "y =" + " " +duckY);
           return position;
      }
 }
