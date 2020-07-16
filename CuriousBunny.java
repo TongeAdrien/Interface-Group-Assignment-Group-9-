@@ -18,11 +18,11 @@ public class CuriousBunny extends Animal implements Teleporter
     }
   }
 
-   private int bunnyX,bunnyY;
+      private int bunnyX,bunnyY;
      
      public void teleport (int x, int y)
      {
-          if (x <=1000 && y<1000 && x>0 && y >500)
+          if (x> 0 && x <= locate.getX() && y >((locate.getY())/2) && y<locate.getY())
           {
                bunnyY = y;
                bunnyX = x;
@@ -35,7 +35,7 @@ public class CuriousBunny extends Animal implements Teleporter
      }
      public String getPosition()
      {
-          String position = (bunnyX+","+bunnyY);
+          String position = ("x =" + " " + bunnyX+","+ " " + "y =" + " " + bunnyY);
           return position;
      }
 }
