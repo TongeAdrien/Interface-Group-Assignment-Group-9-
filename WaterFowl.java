@@ -9,10 +9,10 @@ public class WaterFowl extends Animal
      
      public void fly()
      {
-          System.out.println("I'm flying");   
+          System.out.println(super.name + " " + "is flying");   
      }
      public void swim()
      {
-          System.out.println("I'm swimming");     
+          System.out.println(super.name + " " + "is swimming");     
      }
 }
