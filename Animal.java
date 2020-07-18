@@ -1,4 +1,4 @@
-/*NGUYEN VU QUANG - T00643038*/
+
 public abstract class Animal
 {
   protected int health;

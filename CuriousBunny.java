@@ -1,4 +1,4 @@
-/*NGUYEN VU QUANG - T00643038*/
+/*Brianna Pham and Adrien Tonge, teleport functionality added*/
 public class CuriousBunny extends Animal implements Teleporter
 {
   public CuriousBunny(String name, String primaryColor)

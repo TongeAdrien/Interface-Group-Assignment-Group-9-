@@ -1,4 +1,4 @@
-/*NGUYEN VU QUANG - T00643038*/
+
 public class HappyPig extends Animal
 {
   public HappyPig(String name, String primaryColor)

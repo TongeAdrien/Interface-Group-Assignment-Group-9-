@@ -1,4 +1,4 @@
-/*NGUYEN VU QUANG - T00643038*/
+/*Brianna Pham and Adrien Tonge, teleport part*/
 public class AngryDuck extends WaterFowl implements Teleporter
 {
   public AngryDuck(String name, String primaryColor)

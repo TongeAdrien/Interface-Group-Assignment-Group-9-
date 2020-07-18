@@ -1,4 +1,4 @@
-/*NGUYEN VU QUANG - T00643038*/
+/*NGUYEN VU QUANG - attack functionality part*/
 public class WaterFowl extends Animal implements AttackerInterface
 {
   protected boolean flyCheck;
@@ -35,6 +35,7 @@ public class WaterFowl extends Animal implements AttackerInterface
     }
   }
   
+  //We can check the character is flying or not, if it dies, it cannot fly
   public String checkFly()
   {
     String check;
