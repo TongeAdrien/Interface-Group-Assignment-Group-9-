@@ -18,22 +18,23 @@ public class CuriousBunny extends Animal implements Teleporter
     }
   }
 
-      private int bunnyX,bunnyY;
+  private int bunnyX,bunnyY;
      
-     public void teleport (int x, int y)
+  public void teleport (int x, int y)
      {
           if (x> 0 && x <= locate.getX() && y >((locate.getY())/2) && y<locate.getY())
           {
                bunnyY = y;
                bunnyX = x;
+               System.out.println("Teleport successful!");
           }
           else
           {
-               System.out.println("Teleport failed");
+               System.out.println("Teleport failed. It stays at the same location on the map!");
                
           }
      }
-     public String getPosition()
+  public String getPosition()
      {
           String position = ("x =" + " " + bunnyX+","+ " " + "y =" + " " + bunnyY);
           return position;

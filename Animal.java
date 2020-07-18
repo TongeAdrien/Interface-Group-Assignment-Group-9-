@@ -71,10 +71,15 @@ public abstract class Animal
   {
     return count;
   }
+
+  public int getKillCount()
+  {
+    return killCount;
+  }
   
   public String toString()
   {
-    return primaryColor+" "+name+" has "+health+" health.";
+    return primaryColor+" "+name+" has "+health+" health" + ". The number of kills of " + primaryColor + " " +name+ ": "+getKillCount();
   }
 }
 

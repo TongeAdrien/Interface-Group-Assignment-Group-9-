@@ -14,10 +14,11 @@ public class AngryDuck extends WaterFowl implements Teleporter
           {
                duckY = y;
                duckX = x;
+               System.out.println("Teleport successful!");
           }
           else
           {
-               System.out.println("Teleport failed");
+               System.out.println("Teleport failed. It stays at the same location on the map!");
                
           }
      }

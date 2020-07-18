@@ -59,7 +59,7 @@ public class WaterFowl extends Animal implements AttackerInterface
     {
       if(!checkAnimal(animal))
       {
-        System.out.println(primaryColor+" "+name+" is attacking "+animal.primaryColor+" "+animal.name);
+        System.out.println(primaryColor+" "+name+" is attacking "+ animal.primaryColor+" "+ animal.name);
         animal.getHit();        
         if(animal.health==0)
         {
@@ -69,7 +69,7 @@ public class WaterFowl extends Animal implements AttackerInterface
       }
       else
       {
-        System.out.println(primaryColor + " " + name + " can not attack "+animal.primaryColor+ " " + animal.name + "beacause this animal is its kind !!");
+        System.out.println(primaryColor + " " + name + " can not attack "+animal.primaryColor+ " " + animal.name + " because this animal is its kind !!");
       }
     }
   }
